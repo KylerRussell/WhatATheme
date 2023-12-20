@@ -17,12 +17,33 @@ layout: compress
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="section">
-                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Projects</p>
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Freshman Projects</p>
+                </div>
+                {% include project-card_freshman.html %}
+
+                <div class="section">
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Sophmore Projects</p>
+                </div>
+                {% include project-card_sophmore.html %}
+
+                <div class="section">
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Junior Projects</p>
+                </div>
+                {% include project-card_junior.html %}
+
+                <div class="section">
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Senior Projects</p>
+                </div>
+                {% include project-card_senior.html %}
+                
+                <div class="section">
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">All Projects</p>
                 </div>
                 {% include project-card.html %}
             </div>
         </div>
-    </section>
+    </section>   
+    
     </div>
 
     <!--Footer-->
